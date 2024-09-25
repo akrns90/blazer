@@ -23,8 +23,7 @@
 // Methods that perform network requests accept a context.Context argument.
 // Callers should use the context's cancellation abilities to end requests
 // early, or to provide timeout or deadline guarantees.
-//
-// This package is in development and may make API changes.
+
 package b2
 
 import (
