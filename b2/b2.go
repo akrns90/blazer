@@ -15,15 +15,9 @@
 // Package b2 provides a high-level interface to Backblaze's B2 cloud storage
 // service.
 //
-// It is specifically designed to abstract away the Backblaze API details by
-// providing familiar Go interfaces, specifically an io.Writer for object
-// storage, and an io.Reader for object download.  Handling of transient
-// errors, including network and authentication timeouts, is transparent.
-//
-// Methods that perform network requests accept a context.Context argument.
-// Callers should use the context's cancellation abilities to end requests
-// early, or to provide timeout or deadline guarantees.
 
+
+  
 package b2
 
 import (
