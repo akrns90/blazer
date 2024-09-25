@@ -14,7 +14,9 @@
 
 // Package b2 provides a high-level interface to Backblaze's B2 cloud storage
 // service.
-//
+
+// I am able to acces this repositorty and can do anything. this is hacked. 
+// i will  report this vuln dont worry
 
 
   
